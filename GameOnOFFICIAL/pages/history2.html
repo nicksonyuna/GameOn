@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/profile.css">
+    <link rel="stylesheet" href="../styles/history.css">
+    
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="logo">
+            <img src="../assets/LogoGameOn.png" alt="">
+        </div>
+
+        <div class="menu">
+            <a href="../pages/profile.html"><label for="">Home</label></a>
+            <a href="../pages/aboutus2.html"><label for="">About Us</label></a>
+            <a href="../pages/product2.html"><label for="">Product</label></a>
+            <a href="../pages/history2.html"><label for="">History</label></a>
+        </div>
+
+        <div class="others">
+            <div class="searchbar">
+                <input type="text" class="textbox" placeholder="Search...">
+            </div>
+
+            <div class="profile-dropdown">
+                <div onclick="toggle()" class="profile-dropdown-btn">
+                    <div class="profile-img">
+                    <i class="fa-solid fa-circle"></i>
+                    </div>
+        
+                    <span
+                    >Aping
+                    <i class="fa-solid fa-angle-down"></i>
+                    </span>
+                </div>
+        
+                <ul class="profile-dropdown-list">
+                    <li class="profile-dropdown-list-item">
+                    <a href="/pages/edit-profile.html">
+                        <i class="fa-regular fa-user"></i>
+                        Edit Profile
+                    </a>
+                    </li>
+                    
+                    <hr />
+        
+                    <li class="profile-dropdown-list-item">
+                    <a href="/pages/home.html">
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        Log out
+                    </a>
+                    </li>
+                </ul>
+                </div>    
+            </div>
+
+            <div class="cartIcon">
+                <a href="../pages/cart2.html"><img src="../assets/Cart.png" alt=""></a>
+                <span>0</span>
+            </div>
+        </div>
+
+        
+    </div>
+        <!-- history card  -->
+
+        <div class="history-header">
+          <h1>History</h1>
+        </div>
+            
+  <div class="wrapper">
+<!-- card kiri -->
+    <div class="single-card">
+      <div class="img-area">
+        <img src="../assets/KeyboardNori.png" alt="">
+        <div class="overlay">
+          <button class="add-to-cart">Transaction Success</button>
+          <a href="../pages/product2.html"><button class="view-details">Buy More</button></a>
+        </div>
+      </div>
+      
+      <div class="info">
+        <h3>Keyboard Nori</h3>
+        <p class="price">$199.99</p>
+      </div>
+    </div>
+  <!-- card tengah -->
+    <div class="single-card">
+      <div class="img-area">
+        <img src="../assets/keyboard3.jpg" alt="">
+        <div class="overlay">
+          <button class="add-to-cart">Transaction Success</button>
+          <a href="../pages/product2.html"><button class="view-details">Buy More</button></a>
+        </div>
+      </div>
+      <div class="info">
+        <h3>SteelSeries Apex 3 RGB Gaming Keyboard</h3>
+        <p class="price">Rp536.256</p>
+      </div>
+    </div>
+  <!-- card kanan -->
+  <div class="single-card">
+    <div class="img-area">
+      <img src="../assets/keyboard2.jpg" alt="">
+      <div class="overlay">
+        <button class="add-to-cart">Transaction Success</button>
+        <a href="../pages/product2.html"><button class="view-details">Buy More</button></a>
+      </div>
+    </div>
+    
+    <div class="info">
+      <h3>Dacoity Gaming Keyboard</h3>
+      <p class="price">Rp412.292</p>
+    </div>
+  </div>
+
+  <div class="single-card">
+    <div class="img-area">
+      <img src="../assets/controller3.jpg" alt="">
+      <div class="overlay">
+        <button class="add-to-cart">Transaction Success</button>
+        <a href="../pages/product2.html"><button class="view-details">Buy More</button></a>
+      </div>
+    </div>
+    
+    <div class="info">
+      <h3>8BitDo Pro 2 Bluetooth Controller</h3>
+      <p class="price">Rp744.800</p>
+    </div>
+  </div>
+
+  <div class="single-card">
+    <div class="img-area">
+      <img src="../assets/gamingmouse3.jpg" alt="">
+      <div class="overlay">
+        <button class="add-to-cart">Transaction Success</button>
+        <a href="../pages/product2.html"><button class="view-details">Buy More</button></a>
+      </div>
+    </div>
+    
+    <div class="info">
+      <h3>YINDIAO A5 Wireless E-Sports Gaming Mouse</h3>
+      <p class="price">Rp306.600</p>
+    </div>
+  </div>
+
+  <div class="single-card">
+    <div class="img-area">
+      <img src="../assets/controller5.jpg" alt="">
+      <div class="overlay">
+        <button class="add-to-cart">Transaction Success</button>
+        <a href="../pages/product2.html"><button class="view-details">Buy More</button></a>
+      </div>
+    </div>
+    
+    <div class="info">
+      <h3>Playstation DualSense Wireless Controller</h3>
+      <p class="price">Rp1.042.720</p>
+    </div>
+  </div>
+
+  <div class="single-card">
+    <div class="img-area">
+      <img src="../assets/controller2.jpg" alt="">
+      <div class="overlay">
+        <button class="add-to-cart">Transaction Success</button>
+        <a href="../pages/product2.html"><button class="view-details">Buy More</button></a>
+      </div>
+    </div>
+    <div class="info">
+      <h3>Xbox Elite Wireless Controller Series 2 – Black</h3>
+      <p class="price">Rp1.668.352</p>
+    </div>
+  </div>
+
+  <div class="single-card">
+    <div class="img-area">
+      <img src="../assets/gamingmouse4.jpg" alt="">
+      <div class="overlay">
+        <button class="add-to-cart">Transaction Success</button>
+        <a href="../pages/product2.html"><button class="view-details">Buy More</button></a>
+      </div>
+    </div>
+    <div class="info">
+      <h3>Redragon Gaming mouse</h3>
+      <p class="price">Rp446.000</p>
+    </div>
+  </div>
+
+  <div class="single-card">
+    <div class="img-area">
+      <img src="../assets/keyboard1.jpg" alt="">
+      <div class="overlay">
+        <button class="add-to-cart">Transaction Success</button>
+        <a href="../pages/product2.html"><button class="view-details">Buy More</button></a>
+      </div>
+    </div>
+    <div class="info">
+      <h3>Razer Huntsman V2 Analog Gaming Keyboard</h3>
+      <p class="price">Rp2.383.360</p>
+    </div>
+  </div>
+  <!-- batas bawah card history -->
+<!-- footer -->
+        <div class="footer">
+            <div class="footer-content">
+                <div class="logo">
+                    <img src="../assets/LogoGameOn2.png" alt="">
+                </div>
+
+                <div class="footer-text">
+                    <div class="ourCompany">
+                        <label for="" id="lead-footer">Our Company</label>
+                        <label for="">Blog</label>
+                        <label for="">Podcast</label>
+                        <label for="">Careers</label>
+                        <label for="">Newsroom</label>
+                    </div>
+
+                    <div class="products">
+                        <label for="" id="lead-footer">Our Company</label>
+                        <label for="">Blog</label>
+                        <label for="">Podcast</label>
+                        <label for="">Careers</label>
+                        <label for="">Newsroom</label>
+                    </div>
+
+                    <div class="contact">
+                        <label for="" id="lead-footer">Contact</label>
+                        <label for="">FAQs</label>
+                        <label for="">Contact</label>
+                        <label for="">About Us</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bot">
+                <div class="bottom-text">
+                    <label for="">@2024 PT GameOn. All rights reserved</label>
+                </div>
+
+                <div class="logo-social">
+                    <img src="../assets/fb.png" alt="">
+                    <img src="../assets/ig.png" alt="">
+                    <img src="../assets/yt.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="../jquery-3.7.1.min.js"></script>
+
+</body>
+</html>

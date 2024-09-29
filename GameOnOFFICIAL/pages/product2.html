@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/profile.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="../assets/LogoGameOn.png" alt="">
+            </div>
+
+            <div class="menu">
+                <a href="../pages/profile.html"><label for="">Home</label></a>
+                <a href="../pages/aboutus2.html"><label for="">About Us</label></a>
+                <a href="../pages/product2.html"><label for="">Product</label></a>
+                <a href="../pages/history2.html"><label for="">History</label></a>
+            </div>
+
+            <div class="others">
+                <div class="searchbar">
+                    <input type="text" class="textbox" placeholder="Search...">
+                </div>
+    
+                <div class="profile-dropdown">
+                    <div onclick="toggle()" class="profile-dropdown-btn">
+                        <div class="profile-img">
+                        <i class="fa-solid fa-circle"></i>
+                        </div>
+            
+                        <span
+                        >Aping
+                        <i class="fa-solid fa-angle-down"></i>
+                        </span>
+                    </div>
+            
+                    <ul class="profile-dropdown-list">
+                        <li class="profile-dropdown-list-item">
+                        <a href="/pages/edit-profile.html">
+                            <i class="fa-regular fa-user"></i>
+                            Edit Profile
+                        </a>
+                        </li>
+                        
+                        <hr />
+            
+                        <li class="profile-dropdown-list-item">
+                        <a href="/pages/home.html">
+                            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                            Log out
+                        </a>
+                        </li>
+                    </ul>
+                    </div>    
+                </div>
+    
+                <div class="cartIcon">
+                    <a href="../pages/cart2.html"><img src="../assets/Cart.png" alt=""></a>
+                    <span id="cart-count">0</span>
+                </div>
+            </div>
+
+            
+        </div>
+
+        <div class="products" id="products">
+            <div class="product-header">
+                <h1>Latest Products</h1>
+            </div>
+
+            <div class="box-container">
+                <div class="box">
+                    <span class="discount">-10%</span>
+
+                    <div class="image">
+                        <a href="../pages/productDetail2.html"><img src="../assets/controller1.jpg" alt="" id="imgSize"></a>
+                    </div>
+
+                    <div class="content">
+                        <h3>Playstation DualSense Wireless Controller</h3>
+                        <div class="price"> Rp1.042.720 </div>
+                    </div>
+
+                    <div class="addtocart">
+                        <button class="add-to-cart">Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-10%</span>
+
+                    <div class="image">
+                        <img src="../assets/controller2.jpg" alt="" id="imgSize">
+                    </div>
+
+                    <div class="content">
+                        <h3>Xbox Elite Wireless Controller Series 2 – Black</h3>
+                        <div class="price"> Rp1.668.352 </div>
+                    </div>
+
+                    <div class="addtocart">
+                        <button class="add-to-cart">Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-10%</span>
+
+                    <div class="image">
+                        <img src="../assets/controller3.jpg" alt="" id="imgSize">
+                    </div>
+
+                    <div class="content">
+                        <h3>8BitDo Pro 2 Bluetooth Controller</h3>
+                        <div class="price"> Rp744.800 </div>
+                    </div>
+
+                    <div class="addtocart">
+                        <button class="add-to-cart">Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-10%</span>
+
+                    <div class="image">
+                        <img src="../assets/controller4.jpg" alt="" id="imgSize">
+                    </div>
+
+                    <div class="content">
+                        <h3>GameSir T3 Wireless Gaming Controller</h3>
+                        <div class="price"> Rp357.504 </div>
+                    </div>
+
+                    <div class="addtocart">
+                        <button class="add-to-cart">Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-10%</span>
+
+                    <div class="image">
+                        <img src="../assets/gamingmouse2.jpg" alt="" id="imgSize">
+                    </div>
+
+                    <div class="content">
+                        <h3>Razer Ambidextrous Gaming Mouse</h3>
+                        <div class="price"> Rp1.930.000 </div>
+                    </div>
+
+                    <div class="addtocart">
+                        <button class="add-to-cart">Add To Cart</button>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <span class="discount">-10%</span>
+
+                    <div class="image">
+                        <img src="../assets/gamingmouse1.jpg" alt="" id="imgSize">
+                    </div>
+
+                    <div class="content">
+                        <h3>Logitech G 203 Wired Gaming Mouse</h3>
+                        <div class="price"> Rp372.388 </div>
+                    </div>
+
+                    <div class="addtocart">
+                        <button class="add-to-cart">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+    </div>
+
+
+
+        
+
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="../script/slider.js"></script>
+    <script src="../script/cartCalc.js"></script>
+</body>
+</html>

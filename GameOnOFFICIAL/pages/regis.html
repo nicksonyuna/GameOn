@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../styles/styleRegis.css">
+</head>
+<body>
+    <div class="logo">
+        <a href=""><img src="../assets/LogoGameOn.png" alt=""></a>
+    </div>
+    <div class="container">
+        <div class="formbody">
+            <h1>Register</h1>
+            <p><a href="../pages/login.html">Already have an account?<b> Log In</b></a></p>
+            <form id="registerForm" action="../pages/login.html">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Username">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password:</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender">
+                        <option value="">Select...</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob">
+                </div>
+                <!-- <button type="submit">Register</button> -->
+                <input type="submit">
+            </form>
+        </div>
+    </div>
+    <script src="../script/script.js" defer></script>
+
+</body>
+</html>
